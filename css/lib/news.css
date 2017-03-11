@@ -1,1 +1,33 @@
 /* TODO: Write styles here */
+.news{
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.news__image{
+  float: left;
+  width: 30%;
+}
+
+.news__text{
+  float: right;
+  width: 70%;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.news__footer{
+  clear: both;
+  padding-top: 10px;
+}
+
+/* Bonus styles*/
+.news:nth-child(2n) .news__image{
+  float: right;
+}
+.news:nth-child(2n) .news__text{
+  float: left;
+}
+.news__image{
+  margin-top: 25px;
+}
